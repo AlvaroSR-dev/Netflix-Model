@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="src/logo.png" type="image/gif">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/47196bee71.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-black">
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="src/netflix-logo.png" alt="Netflix" width="100px;" style="margin-left: 50px;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Series TV</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Películas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Novedades más vistas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Mi lista</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Audio y subtítulos</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+                <i class="fa-solid fa-magnifying-glass text-white"  style="margin-right: 20px;"></i>
+                <a href="#" class="text-white" style="text-decoration: none;"  style="margin-right: 20px;">Infantil</a>
+                <i class="fa-solid fa-bell text-white" style="margin-right: 20px; margin-left: 20px;"></i>
+                <i class="fa-solid fa-user text-white" style="margin-right: 20px;"></i>
+            </span>
+          </div>
+        </div>
+      </nav>
+
+    <div class="w-100">
+        <div class="video-container">
+            <video autoplay muted loop>
+                <source src="src/rick_y_morty.mp4" type="video/mp4" />
+            </video>
+            <div class="caption float-start" style="padding-top: 15%;">
+                <img src="src/rick_y_morty.png" alt="">
+                <div class="px-2">
+                    <button type="button" class="btn btn-light" style="width: 250px; height: 55px; font-size: 25px;"><i class="fa-solid fa-play"></i> Reproducir</button>
+                    <button type="button" class="btn btn-secondary" style="width: 250px; height: 55px; font-size: 25px;"><i class="fa-solid fa-circle-info"></i> Más
+                        información</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-100 text-white p-4">
+      <h2>Mi lista</h2>
+      <div class="row w-100">
+        <div class="col"><img src="src/final-space.jpg" alt="..." width="280px" height="150px" class="rounded caratulas"></div>
+        <div class="col"><img src="src/suits.jpeg" alt="..." width="280px" height="150px" class="rounded caratulas"></div>
+        <div class="col"><img src="src/riverdale.jpg" alt="..." width="280px" height="150px" class="rounded caratulas"></div>
+        <div class="col"><img src="src/elite.jpg" alt="..." width="280px" height="150px" class="rounded caratulas"></div>
+        <div class="col"><img src="src/vikingos.jpg" alt="..." width="280px" height="150px" class="rounded caratulas"></div>
+        <div class="col"><img src="src/peaky-blinders.jpg" alt="..." width="280px" height="150px" class="rounded caratulas"></div>
+      </div>
+    </div>
+
+    <div class="w-100 text-white p-4">
+      <h2>Películas</h2>
+      <div class="row w-100">
+        <div class="col"><img src="src/wallstreet.jpg" alt="..." width="280px" height="150px" class="rounded caratulas"></div>
+        <div class="col"><img src="src/chuek.jpg" alt="..." width="280px" height="150px" class="rounded caratulas"></div>
+        <div class="col"><img src="src/ted.jpg" alt="..." width="280px" height="150px" class="rounded caratulas"></div>
+        <div class="col"><img src="src/sonic.jpg" alt="..." width="280px" height="150px" class="rounded caratulas"></div>
+        <div class="col"><img src="src/venom.jpg" alt="..." width="280px" height="150px" class="rounded caratulas"></div>
+        <div class="col"><img src="src/chuek2.jpg" alt="..." width="280px" height="150px" class="rounded caratulas"></div>
+      </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
